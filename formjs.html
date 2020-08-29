@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formjs.css">
+    <title>FORM</title>
+</head>
+<body>
+    
+<div class="div">
+    <h1 class="h1">TELL US ABOUT YOU!</h1>
+    <form class="form" action="#">
+        <p>FULL NAME</p>
+        <input type="text" name="full name" placeholder="first last" required>
+        <br>
+        <p>PHONE NUMBER</p>
+        <input type="text" name="number" placeholder="+2341234567890" required>
+        <br>
+        <p>DATE OF BIRTH</p>
+        <input type="date" name="dob" required>
+        <br>
+        <p>STATE OF ORIGIN</p>
+        <select name="state of origin" class="state" placeholder="select state" required>
+                <option aria-readonly="true">select state</option>
+                <option>Abia</option>
+                <option>Anambra</option>
+                <option>Ebonyi</option>
+                <option>Enugu</option>
+                <option>Edo</option>
+                <option>Ogun</option>
+                <option>Imo</option>
+                <option>Rivers</option>
+                <option>Lagos</option>
+                <option>Benin-Kebbi</option>
+                <option>Benue</option>
+        </select>
+        <br>
+        <p>E-MAIL</p>
+        <input type="email" name="full name" placeholder="name@mail.com" required>
+        <br>
+        <p>NATIONALITY</p>
+        <input type="text" name="full name" placeholder="your country" required>
+        <br> <br>
+        <button class="button" href="#" onclick="return dateEnd()">Register Me</button>
+    </form>
+</div>
+
+<script src="formjs.js"></script>
+</body>
+</html>
